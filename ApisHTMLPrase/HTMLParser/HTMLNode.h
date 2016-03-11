@@ -31,7 +31,7 @@ typedef enum
 	HTMLStrongNode,
 	HTMLPreNode,
 	HTMLBlockQuoteNode,
-  HTMLIFrame,
+    HTMLIFrame,
 } HTMLNodeType;
 
 @interface HTMLNode : NSObject 

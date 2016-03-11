@@ -21,7 +21,7 @@
 }
 
 - (IBAction)buttonMethod:(id)sender {
-    NSString *readmePath = [[NSBundle mainBundle] pathForResource:@"demo" ofType:@"html"];
+    NSString *readmePath = [[NSBundle mainBundle] pathForResource:@"demo2" ofType:@"html"];
     NSString *html = [NSString stringWithContentsOfFile:readmePath encoding:NSUTF8StringEncoding error:NULL];
     
     DetailInfoViewController *detailVC = [DetailInfoViewController new];
